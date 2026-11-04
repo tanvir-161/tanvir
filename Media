@@ -1,0 +1,40 @@
+.brand-section{
+    background:#ffffff;
+}
+
+.brand-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+    align-items:center;
+}
+
+.brand-card{
+    background:white;
+    border:1px solid #d4ded6;
+    border-radius:8px;
+    padding:25px;
+    text-align:center;
+    transition:0.3s;
+}
+
+.brand-card:hover{
+    transform:translateY(-5px);
+}
+
+.brand-card img{
+    max-width:180px;
+    max-height:80px;
+    object-fit:contain;
+    margin-bottom:15px;
+}
+
+.brand-card h3{
+    color:#153b32;
+    margin-bottom:8px;
+}
+
+.brand-card p{
+    font-size:14px;
+    color:#666;
+}
