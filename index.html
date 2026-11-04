@@ -1,0 +1,454 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tanvir Ahmed | Professional Merchandiser</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f8f5;
+    color: #24352f;
+    line-height: 1.7;
+}
+
+header {
+    background: #153b32;
+    color: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #b7d9c5;
+}
+
+.hero {
+    min-height: 520px;
+    padding: 100px 10%;
+    background: #e5eee8;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 750px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    line-height: 1.2;
+    color: #153b32;
+}
+
+.hero h2 {
+    color: #648b75;
+    font-size: 25px;
+    margin: 15px 0;
+}
+
+.hero p {
+    font-size: 17px;
+    max-width: 650px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    background: #153b32;
+    color: white;
+    padding: 13px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #376c57;
+}
+
+section {
+    padding: 75px 10%;
+}
+
+.section-title {
+    font-size: 34px;
+    color: #153b32;
+    margin-bottom: 30px;
+}
+
+.about p {
+    font-size: 17px;
+    max-width: 900px;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 35px 10%;
+    background: #153b32;
+    color: white;
+    text-align: center;
+}
+
+.stat h2 {
+    font-size: 35px;
+    color: #b7d9c5;
+}
+
+.stat p {
+    font-size: 14px;
+}
+
+.experience {
+    background: #edf1ec;
+}
+
+.job {
+    background: white;
+    padding: 28px;
+    margin-bottom: 25px;
+    border-left: 5px solid #648b75;
+    border-radius: 5px;
+}
+
+.job h3 {
+    color: #153b32;
+    font-size: 23px;
+}
+
+.job h4 {
+    color: #648b75;
+    margin: 8px 0;
+}
+
+.job ul {
+    padding-left: 22px;
+    margin-top: 15px;
+}
+
+.job li {
+    margin-bottom: 8px;
+}
+
+.achievement-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.achievement {
+    padding: 25px;
+    border: 1px solid #d4ded6;
+    border-radius: 7px;
+}
+
+.achievement h3 {
+    color: #648b75;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.skills {
+    background: #edf1ec;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skill {
+    background: #153b32;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.education-card {
+    background: white;
+    padding: 22px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.education-card h3 {
+    color: #153b32;
+}
+
+.contact {
+    background: #153b32;
+    color: white;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.contact a {
+    color: #b7d9c5;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 22px;
+    background: #102d26;
+    color: white;
+    font-size: 13px;
+}
+
+@media(max-width: 700px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    nav a {
+        margin: 0;
+    }
+
+    .hero h1 {
+        font-size: 39px;
+    }
+
+    .hero {
+        padding: 70px 8%;
+    }
+
+    .stats,
+    .achievement-grid {
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        padding: 55px 8%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">TANVIR AHMED</div>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <div class="hero-content">
+        <h1>Hello, I'm Tanvir Ahmed</h1>
+        <h2>Professional Merchandiser</h2>
+        <p>
+            Performance-oriented Apparel Merchandiser with nearly
+            5 years of experience in woven apparel, product development,
+            sourcing, costing, supplier coordination and production management.
+            Experienced in working with international retail brands.
+        </p>
+        <a class="btn" href="#experience">Explore My Experience</a>
+        <a class="btn" href="#contact">Contact Me</a>
+    </div>
+</div>
+
+<div class="stats">
+    <div class="stat">
+        <h2>5 Years</h2>
+        <p>Professional Experience</p>
+    </div>
+    <div class="stat">
+        <h2>98%</h2>
+        <p>On-Time Shipment Achievement</p>
+    </div>
+    <div class="stat">
+        <h2>$6M+</h2>
+        <p>Average Departmental Shipment Value</p>
+    </div>
+</div>
+
+<section class="about" id="about">
+    <h2 class="section-title">About Me</h2>
+    <p>
+        I am Tanvir Ahmed, an Assistant Merchandiser based in Dhaka,
+        Bangladesh. I have nearly five years of professional experience
+        in the apparel merchandising industry.
+        <br><br>
+        My expertise includes end-to-end order management, strategic
+        sourcing, garment costing, critical path management, product
+        development, sampling, production planning and shipment execution.
+        <br><br>
+        I have worked with international brands including NEXT UK PLC
+        and Betty Barclay, coordinating with buyers, factories, mills,
+        suppliers, quality teams and logistics partners to ensure
+        smooth production and timely delivery.
+    </p>
+</section>
+
+<section class="experience" id="experience">
+    <h2 class="section-title">Professional Experience</h2>
+
+    <div class="job">
+        <h3>Assistant Merchandiser</h3>
+        <h4>Dongyi Sourcing Limited | October 2023 – Present</h4>
+        <p><strong>Brand:</strong> NEXT UK PLC</p>
+        <p><strong>Product:</strong> Women's Tailoring, Blouse & THE SET (Woven Non-Denim)</p>
+        <ul>
+            <li>Managed merchandising operations across manufacturing factories.</li>
+            <li>Developed and tracked critical paths and time & action plans.</li>
+            <li>Coordinated sampling, fabric, trims, lab dip, fit and PP approvals.</li>
+            <li>Prepared garment costing and negotiated supplier terms.</li>
+            <li>Monitored production status and implemented recovery plans.</li>
+            <li>Coordinated factories, mills, suppliers, QA and logistics.</li>
+            <li>Maintained buyer ERP portals and production tracking reports.</li>
+            <li>Coordinated with NEXT UK buying teams.</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <h3>Assistant Merchandiser</h3>
+        <h4>Ajax Sweater Limited | June 2022 – October 2023</h4>
+        <p><strong>Brand:</strong> Betty Barclay</p>
+        <p><strong>Product:</strong> Women's Fully Fashioned Knitwear</p>
+        <ul>
+            <li>Coordinated sample development through bulk production.</li>
+            <li>Followed up fit approvals and sample submissions.</li>
+            <li>Coordinated lab dip, bulk hanger and trim approvals.</li>
+            <li>Arranged trims and accessories for SMS samples using BOM.</li>
+            <li>Organized pre-production meetings with buyer QC teams.</li>
+            <li>Monitored factory production and resolved issues.</li>
+            <li>Updated ERP systems and production reports.</li>
+            <li>Planned shipments and maintained delivery schedules.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="achievements">
+    <h2 class="section-title">Key Achievements</h2>
+
+    <div class="achievement-grid">
+        <div class="achievement">
+            <h3>98% On-Time Shipment</h3>
+            <p>Achieved 98% OTS across all departments in 2026.</p>
+        </div>
+
+        <div class="achievement">
+            <h3>USD 6 Million+</h3>
+            <p>Managed average departmental shipment values exceeding
+            USD 6 million for three consecutive sales years.</p>
+        </div>
+
+        <div class="achievement">
+            <h3>Factory Management</h3>
+            <p>Managed merchandising activities for multiple
+            manufacturing factories simultaneously.</p>
+        </div>
+
+        <div class="achievement">
+            <h3>Product Expertise</h3>
+            <p>Handled women's and men's tailoring, blouses,
+            beachwear and THE SET in woven apparel.</p>
+        </div>
+    </div>
+</section>
+
+<section class="skills" id="skills">
+    <h2 class="section-title">Professional Skills</h2>
+    <div class="skill-list">
+        <div class="skill">Critical Path Management</div>
+        <div class="skill">Time & Action Planning</div>
+        <div class="skill">Buyer Communication</div>
+        <div class="skill">Costing & Consumption</div>
+        <div class="skill">Fabric Sourcing</div>
+        <div class="skill">Trims Sourcing</div>
+        <div class="skill">Product Development</div>
+        <div class="skill">Sampling</div>
+        <div class="skill">ERP Management</div>
+        <div class="skill">Production Follow-up</div>
+        <div class="skill">Supplier Coordination</div>
+        <div class="skill">Buyer Extranet Updates</div>
+        <div class="skill">Cross-functional Coordination</div>
+        <div class="skill">Approval Management</div>
+        <div class="skill">Shipment Planning</div>
+    </div>
+</section>
+
+<section id="education">
+    <h2 class="section-title">Education</h2>
+
+    <div class="education-card">
+        <h3>Bachelor of Apparel Merchandising and Management</h3>
+        <p>BGMEA University of Fashion and Technology (BUFT)</p>
+        <p>2019 – 2022 | CGPA: 3.47 / 4.00</p>
+    </div>
+
+    <div class="education-card">
+        <h3>Higher Secondary Certificate (HSC)</h3>
+        <p>Narsingdi Model College</p>
+        <p>2018 | GPA: 3.92 / 5.00</p>
+    </div>
+
+    <div class="education-card">
+        <h3>Secondary School Certificate (SSC)</h3>
+        <p>Marjal Kaji Md. Bashir High School</p>
+        <p>2016 | GPA: 3.50 / 5.00</p>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Let's Connect</h2>
+    <p>Interested in professional opportunities and collaborations.</p>
+    <br>
+    <p>Email: <a href="mailto:tanvir.buft191@gmail.com">
+        tanvir.buft191@gmail.com</a></p>
+    <p>Phone: <a href="tel:+8801988557281">
+        +88 01988-557281</a></p>
+    <p>Location: Dhaka, Bangladesh</p>
+</section>
+
+<footer>
+    <p>© 2026 Tanvir Ahmed | Professional Merchandiser</p>
+</footer>
+
+</body>
+</html>
